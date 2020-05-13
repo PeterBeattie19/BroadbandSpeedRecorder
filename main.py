@@ -2,6 +2,12 @@ import pandas as pd
 from datetime import datetime
 import time
 import speedtest as st
+import sys
+
+
+def get_args():
+    _argv = sys.argv
+    return _argv[1:]
 
 
 def test_speeds():
@@ -54,5 +60,5 @@ def start_recording(delay, csv_file_name="internet_speeds_dataset.csv"):
             return
 
 
-interval_minutes = 10
+interval_minutes = int(get_args()[0])
 start_recording(interval_minutes*60)
