@@ -208,7 +208,7 @@ urllib3==1.24.1
 w3lib==1.21.0
 wcwidth==0.1.7
 webencodings==0.5.1
-websockets==8.1
+websockets==9.1
 Werkzeug==0.14.1
 whichcraft==0.5.2
 widgetsnbextension==3.4.2
