@@ -3,7 +3,7 @@ anaconda-client==1.7.2
 anaconda-navigator==1.9.6
 anaconda-project==0.8.2
 appdirs==1.4.3
-arrow==0.13.1
+arrow==0.15.1
 asn1crypto==0.24.0
 astroid==2.1.0
 astropy==3.1
